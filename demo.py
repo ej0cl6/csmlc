@@ -23,7 +23,7 @@ x_test = x_data[x_data.shape[0]/2:]
 y_test = y_data[x_data.shape[0]/2:]
 
 # algorithms (there is no inference rule for pcc_acc, using pcc_f1 instead)
-params = {"n_estimators":100, "max_depth": 10, "max_features": "sqrt", "n_jobs": 10}
+params = {"n_estimators":500, "max_depth": 10, "max_features": "sqrt", "n_jobs": 10}
 alg_br = BR(RandomForestClassifier, params)
 alg_cc = CC(RandomForestClassifier, params)
 alg_pcc_ham = PCC('ham', RandomForestClassifier, params)
