@@ -1,4 +1,4 @@
-## Cost-Sensitive Label Embedding with Multidimensional Scaling
+## Cost-Sensitive Multi-Label Classification
 
 Python implementation of our paper [Cost-Sensitive Label Embedding for Multi-Label Classification](https://arxiv.org/abs/1603.09048) and related algorithms, including:
 
