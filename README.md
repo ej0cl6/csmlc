@@ -1,2 +1,1 @@
-# csmlc
-Cost-Sensitive Multi-Label Classification
+# Cost-Sensitive Multi-Label Classification
