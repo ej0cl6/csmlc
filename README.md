@@ -8,7 +8,8 @@ Python implementation of our paper [Cost-Sensitive Label Embedding for Multi-Lab
 - Classifier Chains (CC)
 - Binary Relevance (BR)
 
-If you find our paper or implementation is useful in your research, please consider citing our paper.
+If you find our paper or implementation is useful in your research, please consider citing our paper for CLEMS and the
+references below for other algorithms.
 
     @article{Huang2017clems,
         author    = {Kuan-Hao Huang and
