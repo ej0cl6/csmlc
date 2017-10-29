@@ -52,7 +52,7 @@ class CLEMS:
 		z_train = z_train_uq[_idxs[:, 0]]
 
 		# train regressor
-		self.rgrs = [self.base_learner(**self.params) for i in xrange(self.K)]
+		self.rgrs = [self.base_learner(**self.params) for i in xrange(self.z_dim)]
 		for i in xrange(self.z_dim):
 			self.rgrs[i].fit(x_train, z_train[:, i])
 
